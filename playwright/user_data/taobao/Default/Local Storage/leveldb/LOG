@@ -1,0 +1,6 @@
+2026/04/13-22:42:00.547 5e00 Reusing MANIFEST D:\playwright\user_data\taobao\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/13-22:42:00.561 5e00 Recovering log #38
+2026/04/13-22:42:00.563 5e00 Reusing old log D:\playwright\user_data\taobao\Default\Local Storage\leveldb/000038.log 
+2026/04/13-22:42:25.829 625c Level-0 table #42: started
+2026/04/13-22:42:25.843 625c Level-0 table #42: 98577 bytes OK
+2026/04/13-22:42:25.847 625c Delete type=0 #38

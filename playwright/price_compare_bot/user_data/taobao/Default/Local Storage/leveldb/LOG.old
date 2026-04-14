@@ -1,0 +1,25 @@
+2026/04/13-22:21:08.019 76dc Reusing MANIFEST D:\playwright\price_compare_bot\user_data\taobao\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/13-22:21:08.027 76dc Recovering log #25
+2026/04/13-22:21:08.031 76dc Level-0 table #28: started
+2026/04/13-22:21:08.044 76dc Level-0 table #28: 257987 bytes OK
+2026/04/13-22:21:08.045 76dc Recovering log #27
+2026/04/13-22:21:08.048 76dc Reusing old log D:\playwright\price_compare_bot\user_data\taobao\Default\Local Storage\leveldb/000027.log 
+2026/04/13-22:21:08.052 76dc Delete type=0 #25
+2026/04/13-22:21:08.053 2ff4 Compacting 4@0 + 1@1 files
+2026/04/13-22:21:08.080 2ff4 Generated table #29@0: 65 keys, 509987 bytes
+2026/04/13-22:21:08.080 2ff4 Compacted 4@0 + 1@1 files => 509987 bytes
+2026/04/13-22:21:08.084 2ff4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/13-22:21:08.085 2ff4 Delete type=2 #17
+2026/04/13-22:21:08.085 2ff4 Delete type=2 #20
+2026/04/13-22:21:08.085 2ff4 Delete type=2 #23
+2026/04/13-22:21:08.085 2ff4 Delete type=2 #26
+2026/04/13-22:21:08.085 2ff4 Delete type=2 #28
+2026/04/13-22:21:20.770 2ff4 Level-0 table #31: started
+2026/04/13-22:21:20.806 2ff4 Level-0 table #31: 92794 bytes OK
+2026/04/13-22:21:20.810 2ff4 Delete type=0 #27
+2026/04/13-22:23:00.766 2ff4 Level-0 table #33: started
+2026/04/13-22:23:00.776 2ff4 Level-0 table #33: 110011 bytes OK
+2026/04/13-22:23:00.779 2ff4 Delete type=0 #30
+2026/04/13-22:23:02.837 2ff4 Level-0 table #35: started
+2026/04/13-22:23:02.850 2ff4 Level-0 table #35: 103185 bytes OK
+2026/04/13-22:23:02.854 2ff4 Delete type=0 #32

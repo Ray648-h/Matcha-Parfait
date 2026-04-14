@@ -1,0 +1,17 @@
+2026/04/13-23:10:22.964 2a04 Reusing MANIFEST D:\playwright\price_compare_bot\user_data\taobao\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/13-23:10:22.974 2a04 Recovering log #34
+2026/04/13-23:10:22.977 2a04 Reusing old log D:\playwright\price_compare_bot\user_data\taobao\Default\Local Storage\leveldb/000034.log 
+2026/04/13-23:10:37.056 ae4 Level-0 table #38: started
+2026/04/13-23:10:37.069 ae4 Level-0 table #38: 264997 bytes OK
+2026/04/13-23:10:37.073 ae4 Delete type=0 #34
+2026/04/13-23:10:37.074 ae4 Compacting 4@0 + 1@1 files
+2026/04/13-23:10:37.093 ae4 Generated table #39@0: 91 keys, 726888 bytes
+2026/04/13-23:10:37.094 ae4 Compacted 4@0 + 1@1 files => 726888 bytes
+2026/04/13-23:10:37.097 ae4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/13-23:10:37.099 ae4 Delete type=2 #29
+2026/04/13-23:10:37.099 ae4 Delete type=2 #31
+2026/04/13-23:10:37.099 ae4 Delete type=2 #33
+2026/04/13-23:10:37.099 ae4 Delete type=2 #35
+2026/04/13-23:10:37.099 ae4 Delete type=2 #38
+2026/04/13-23:11:35.195 7ea4 Level-0 table #41: started
+2026/04/13-23:11:35.214 7ea4 Level-0 table #41: 145373 bytes OK
