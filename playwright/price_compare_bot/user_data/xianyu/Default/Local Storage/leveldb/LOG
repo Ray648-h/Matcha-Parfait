@@ -1,5 +1,0 @@
-2026/03/29-16:15:27.590 949c Creating DB D:\playwright\price_compare_bot\user_data\xianyu\Default\Local Storage\leveldb since it was missing.
-2026/03/29-16:15:27.628 949c Reusing MANIFEST D:\playwright\price_compare_bot\user_data\xianyu\Default\Local Storage\leveldb/MANIFEST-000001
-2026/03/29-16:15:45.628 4910 Level-0 table #5: started
-2026/03/29-16:15:45.637 4910 Level-0 table #5: 84588 bytes OK
-2026/03/29-16:15:45.644 4910 Delete type=0 #3

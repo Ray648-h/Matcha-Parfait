@@ -1,6 +1,0 @@
-2026/03/26-17:16:32.790 3520 Reusing MANIFEST D:\playwright\user_data\wajueji\Default\Local Storage\leveldb/MANIFEST-000001
-2026/03/26-17:16:32.795 3520 Recovering log #3
-2026/03/26-17:16:32.797 3520 Reusing old log D:\playwright\user_data\wajueji\Default\Local Storage\leveldb/000003.log 
-2026/03/26-17:17:32.809 fa0 Level-0 table #5: started
-2026/03/26-17:17:32.818 fa0 Level-0 table #5: 18931 bytes OK
-2026/03/26-17:17:32.826 fa0 Delete type=0 #3
