@@ -1,0 +1,95 @@
+[
+  {
+    "id": "hpoi_001",
+    "title": "Good Smile Company 户山香澄 粘土人 手办",
+    "price_jpy": 12800.0,
+    "price_cny": 655.36,
+    "release_date": "2024年12月",
+    "category": "粘土人",
+    "brand": "GSC",
+    "character": "户山香澄",
+    "series": "BanG Dream!",
+    "source": "HPOI",
+    "search_keywords": [
+      "户山香澄",
+      "粘土人",
+      "手办",
+      "GSC",
+      "Good Smile Company"
+    ]
+  },
+  {
+    "id": "hpoi_002",
+    "title": "Max Factory 初音未来 figma 可动手办",
+    "price_jpy": 15800.0,
+    "price_cny": 808.96,
+    "release_date": "2024年10月",
+    "category": "figma",
+    "brand": "Max Factory",
+    "character": "初音未来",
+    "series": "VOCALOID",
+    "source": "HPOI",
+    "search_keywords": [
+      "初音未来",
+      "figma",
+      "可动手办",
+      "Max Factory"
+    ]
+  },
+  {
+    "id": "hpoi_003",
+    "title": "GSC 满舰饰真子 粘土人 手办",
+    "price_jpy": 13800.0,
+    "price_cny": 706.56,
+    "release_date": "2024年11月",
+    "category": "粘土人",
+    "brand": "GSC",
+    "character": "满舰饰真子",
+    "series": "少女与战车",
+    "source": "HPOI",
+    "search_keywords": [
+      "满舰饰真子",
+      "粘土人",
+      "手办",
+      "GSC"
+    ]
+  },
+  {
+    "id": "hpoi_004",
+    "title": "Saber Alter 手办 模型",
+    "price_jpy": 19800.0,
+    "price_cny": 1013.76,
+    "release_date": "2024年9月",
+    "category": "手办",
+    "brand": "Aniplex",
+    "character": "Saber Alter",
+    "series": "Fate/stay night",
+    "source": "HPOI",
+    "search_keywords": [
+      "Saber",
+      "Alter",
+      "手办",
+      "模型",
+      "Fate"
+    ]
+  },
+  {
+    "id": "hpoi_005",
+    "title": "Nendoroid 雷姆 粘土人 手办",
+    "price_jpy": 14800.0,
+    "price_cny": 757.76,
+    "release_date": "2024年8月",
+    "category": "粘土人",
+    "brand": "Good Smile Company",
+    "character": "雷姆",
+    "series": "Re:从零开始的异世界生活",
+    "source": "HPOI",
+    "search_keywords": [
+      "雷姆",
+      "粘土人",
+      "Nendoroid",
+      "手办",
+      "GSC"
+    ]
+  }
+]

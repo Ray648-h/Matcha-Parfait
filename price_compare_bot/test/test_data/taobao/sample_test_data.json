@@ -1,0 +1,34 @@
+{
+  "test_cases": [
+    {
+      "keyword": "初音未来粘土人3.0",
+      "expected_min_score": 20,
+      "description": "测试初音未来相关商品评分"
+    },
+    {
+      "keyword": "Saber Alter 手办",
+      "expected_min_score": 15,
+      "description": "测试Saber相关商品评分"
+    }
+  ],
+  "sample_items": [
+    {
+      "title": "初音未来 粘土人 3.0 全新正版 包邮",
+      "shop": "gsc官方旗舰店",
+      "price_text": "¥299.00",
+      "link": "https://item.taobao.com/item.htm?id=1234567890",
+      "image": "https://example.com/image.jpg",
+      "target_shop": "gsc",
+      "free_shipping": true
+    },
+    {
+      "title": "Saber Alter 手办 1/7 比例",
+      "shop": "hpoi官方旗舰店",
+      "price_text": "¥899.00",
+      "link": "https://item.taobao.com/item.htm?id=2345678901",
+      "image": "https://example.com/image2.jpg",
+      "target_shop": "hpoi",
+      "free_shipping": true
+    }
+  ]
+}

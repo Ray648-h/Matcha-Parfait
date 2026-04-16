@@ -1,0 +1,41 @@
+[
+  {
+    "keyword": "户山香澄粘土人",
+    "expected_matches": [
+      "hpoi_001"
+    ],
+    "description": "精确匹配特定角色和产品类型"
+  },
+  {
+    "keyword": "初音未来",
+    "expected_matches": [
+      "hpoi_002"
+    ],
+    "description": "匹配角色名称"
+  },
+  {
+    "keyword": "粘土人",
+    "expected_matches": [
+      "hpoi_001",
+      "hpoi_003",
+      "hpoi_005"
+    ],
+    "description": "匹配产品类型"
+  },
+  {
+    "keyword": "GSC手办",
+    "expected_matches": [
+      "hpoi_001",
+      "hpoi_003",
+      "hpoi_005"
+    ],
+    "description": "匹配品牌和产品类型"
+  },
+  {
+    "keyword": "Saber",
+    "expected_matches": [
+      "hpoi_004"
+    ],
+    "description": "匹配角色名称（英文）"
+  }
+]

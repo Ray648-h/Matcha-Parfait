@@ -1,0 +1,30 @@
+{
+  "hpoi_url": "https://www.hpoi.net",
+  "hpoi_search_url": "https://www.hpoi.net/search",
+  "product_type_keywords": [
+    "粘土人",
+    "手办粘土人",
+    "手办",
+    "模型",
+    "玩偶",
+    "人偶",
+    "雕像",
+    "公仔",
+    "黏土人",
+    "nendoroid",
+    "figma",
+    "max factory",
+    "good smile",
+    "gsc",
+    "手办盲盒",
+    "盲盒手办"
+  ],
+  "selectors": {
+    "product_item": "div.product-item, li.item-list, div.goods-item, li.media.ibox-content",
+    "title": "a.product-name, a.goods-name, span.name, h4.media-heading a",
+    "price": "span.price, span.sale-price, em.price",
+    "date": "span.date, span.release-date, em.date",
+    "link": "a.product-link, a.goods-link, a",
+    "source": "span.source, span.seller, em.shop"
+  }
+}

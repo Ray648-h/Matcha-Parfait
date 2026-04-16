@@ -1,0 +1,94 @@
+[
+  {
+    "id": "hpoi_new_001",
+    "title": "Good Smile Company 户山香澄 粘土人 手办",
+    "price_jpy": 12800.0,
+    "price_cny": 655.36,
+    "release_date": "2024年12月",
+    "category": "粘土人",
+    "brand": "GSC",
+    "character": "户山香澄",
+    "series": "BanG Dream!",
+    "source": "HPOI",
+    "search_keywords": [
+      "户山香澄",
+      "粘土人",
+      "手办",
+      "GSC",
+      "Good Smile Company"
+    ]
+  },
+  {
+    "id": "hpoi_new_002",
+    "title": "Max Factory 初音未来 figma 可动手办",
+    "price_jpy": 15800.0,
+    "price_cny": 808.96,
+    "release_date": "2024年10月",
+    "category": "figma",
+    "brand": "Max Factory",
+    "character": "初音未来",
+    "series": "VOCALOID",
+    "source": "HPOI",
+    "search_keywords": [
+      "初音未来",
+      "figma",
+      "可动手办",
+      "Max Factory"
+    ]
+  },
+  {
+    "id": "hpoi_new_003",
+    "title": "Alter 雪之下雪乃 1/7 比例手办",
+    "price_jpy": 25800.0,
+    "price_cny": 1320.96,
+    "release_date": "2025年3月",
+    "category": "比例手办",
+    "brand": "Alter",
+    "character": "雪之下雪乃",
+    "series": "我的青春恋爱物语果然有问题",
+    "source": "HPOI",
+    "search_keywords": [
+      "雪之下雪乃",
+      "1/7",
+      "比例手办",
+      "Alter"
+    ]
+  },
+  {
+    "id": "hpoi_new_004",
+    "title": "Kotobukiya 雷姆 生日纪念版 手办",
+    "price_jpy": 19800.0,
+    "price_cny": 1013.76,
+    "release_date": "2024年11月",
+    "category": "生日纪念版",
+    "brand": "Kotobukiya",
+    "character": "雷姆",
+    "series": "Re:从零开始的异世界生活",
+    "source": "HPOI",
+    "search_keywords": [
+      "雷姆",
+      "生日纪念",
+      "手办",
+      "Kotobukiya"
+    ]
+  },
+  {
+    "id": "hpoi_new_005",
+    "title": "FREEing  Saber 兔女郎 1/4 比例手办",
+    "price_jpy": 39800.0,
+    "price_cny": 2037.76,
+    "release_date": "2025年1月",
+    "category": "兔女郎手办",
+    "brand": "FREEing",
+    "character": "Saber",
+    "series": "Fate/stay night",
+    "source": "HPOI",
+    "search_keywords": [
+      "Saber",
+      "兔女郎",
+      "1/4",
+      "比例手办",
+      "FREEing"
+    ]
+  }
+]

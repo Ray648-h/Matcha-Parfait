@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手办价格比较机器人</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-robot"></i> 手办价格比较机器人</h1>
+            <p class="subtitle">一键搜索淘宝、闲鱼、挖煤姬、HPOI平台，找到最优惠的价格</p>
+        </header>
+
+        <!-- 登录状态区域 -->
+        <div class="login-section" id="loginSection">
+            <div class="section-header">
+                <h2><i class="fas fa-sign-in-alt"></i> 平台登录状态</h2>
+                <div class="login-controls">
+                    <button class="btn btn-login" id="loginBtn">
+                        <i class="fas fa-key"></i> 一键登录所有平台
+                    </button>
+                    <button class="btn btn-refresh" id="refreshStatusBtn">
+                        <i class="fas fa-sync-alt"></i> 刷新状态
+                    </button>
+                </div>
+            </div>
+            
+            <div class="platform-status-container">
+                <div class="platform-status" data-platform="taobao">
+                    <div class="platform-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>淘宝</h3>
+                        <div class="status-indicator">
+                            <span class="status-dot status-offline"></span>
+                            <span class="status-text">未登录</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="platform-status" data-platform="xianyu">
+                    <div class="platform-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>闲鱼</h3>
+                        <div class="status-indicator">
+                            <span class="status-dot status-offline"></span>
+                            <span class="status-text">未登录</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="platform-status" data-platform="wajueji">
+                    <div class="platform-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>挖煤姬</h3>
+                        <div class="status-indicator">
+                            <span class="status-dot status-offline"></span>
+                            <span class="status-text">未登录</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="platform-status" data-platform="hpoi">
+                    <div class="platform-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>HPOI</h3>
+                        <div class="status-indicator">
+                            <span class="status-dot status-online"></span>
+                            <span class="status-text">无需登录</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 搜索区域 -->
+        <div class="search-section">
+            <div class="section-header">
+                <h2><i class="fas fa-search"></i> 手办搜索</h2>
+            </div>
+            
+            <div class="search-form">
+                <div class="search-input-group">
+                    <input type="text" id="searchInput" placeholder="输入手办商品精确名称，例如：GSC户山香澄">
+                    <button class="btn btn-search" id="searchBtn">
+                        <i class="fas fa-search"></i> 搜索
+                    </button>
+                </div>
+                
+                <div class="platform-selector">
+                    <h3>选择搜索平台：</h3>
+                    <div class="platform-checkboxes">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="platform" value="taobao" checked>
+                            <i class="fas fa-shopping-cart"></i> 淘宝
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="platform" value="xianyu" checked>
+                            <i class="fas fa-fish"></i> 闲鱼
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="platform" value="wajueji" checked>
+                            <i class="fas fa-gem"></i> 挖煤姬
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="platform" value="hpoi" checked disabled>
+                            <i class="fas fa-star"></i> HPOI (默认搜索)
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="sort-options">
+                    <h3>排序选项：</h3>
+                    <div class="sort-controls">
+                        <label class="radio-label">
+                            <input type="radio" name="sortOrder" value="desc" checked>
+                            <i class="fas fa-sort-amount-down"></i> 价格降序
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="sortOrder" value="asc">
+                            <i class="fas fa-sort-amount-up"></i> 价格升序
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="freeShippingFirst" checked>
+                            <i class="fas fa-shipping-fast"></i> 包邮优先
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HPOI最佳商品展示 -->
+        <div class="hpoi-best-section" id="hpoiBestSection" style="display: none;">
+            <div class="section-header">
+                <h2><i class="fas fa-crown"></i> HPOI推荐最佳商品</h2>
+            </div>
+            <div class="hpoi-best-card" id="hpoiBestCard">
+                <!-- 动态加载 -->
+            </div>
+        </div>
+
+        <!-- 搜索结果区域 -->
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <div class="section-header">
+                <h2><i class="fas fa-list"></i> 搜索结果</h2>
+                <div class="results-info">
+                    <span id="resultsCount">0</span> 个结果
+                    <span class="sort-indicator" id="sortIndicator">按价格降序排列</span>
+                </div>
+            </div>
+            
+            <div class="results-container" id="resultsContainer">
+                <!-- 动态加载搜索结果 -->
+            </div>
+        </div>
+
+        <!-- HPOI推荐商品 -->
+        <div class="hpoi-recommendations-section" id="hpoiRecommendationsSection" style="display: none;">
+            <div class="section-header">
+                <h2><i class="fas fa-thumbs-up"></i> HPOI推荐商品</h2>
+            </div>
+            <div class="recommendations-container" id="recommendationsContainer">
+                <!-- 动态加载推荐商品 -->
+            </div>
+        </div>
+
+        <!-- 加载指示器 -->
+        <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+            <div class="loading-content">
+                <div class="spinner"></div>
+                <p id="loadingMessage">正在处理，请稍候...</p>
+            </div>
+        </div>
+
+        <!-- 模态框 -->
+        <div class="modal-overlay" id="loginModal" style="display: none;">
+            <div class="modal">
+                <div class="modal-header">
+                    <h3><i class="fas fa-key"></i> 登录平台</h3>
+                    <button class="btn-close" id="closeModalBtn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>即将打开浏览器窗口进行平台登录。请按照提示完成登录操作。</p>
+                    <div class="login-steps">
+                        <div class="login-step active">
+                            <i class="fas fa-check-circle"></i>
+                            <span>准备登录</span>
+                        </div>
+                        <div class="login-step">
+                            <i class="fas fa-browser"></i>
+                            <span>打开浏览器</span>
+                        </div>
+                        <div class="login-step">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <span>完成登录</span>
+                        </div>
+                    </div>
+                    <div class="login-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="loginProgressFill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="cancelLoginBtn">取消</button>
+                    <button class="btn btn-primary" id="confirmLoginBtn">开始登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

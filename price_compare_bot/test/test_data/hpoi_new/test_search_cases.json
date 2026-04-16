@@ -1,0 +1,37 @@
+[
+  {
+    "keyword": "户山香澄粘土人",
+    "expected_matches": [
+      "hpoi_new_001"
+    ],
+    "description": "精确匹配特定角色和产品类型"
+  },
+  {
+    "keyword": "初音未来",
+    "expected_matches": [
+      "hpoi_new_002"
+    ],
+    "description": "匹配角色名称"
+  },
+  {
+    "keyword": "雪之下雪乃手办",
+    "expected_matches": [
+      "hpoi_new_003"
+    ],
+    "description": "匹配角色和产品类型"
+  },
+  {
+    "keyword": "雷姆生日纪念",
+    "expected_matches": [
+      "hpoi_new_004"
+    ],
+    "description": "匹配角色和特殊版本"
+  },
+  {
+    "keyword": "Saber兔女郎",
+    "expected_matches": [
+      "hpoi_new_005"
+    ],
+    "description": "匹配角色和特殊造型"
+  }
+]
